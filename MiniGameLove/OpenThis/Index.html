@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Asset/Img/Logo.png">
+    <link rel="stylesheet" href="CSS/GameStyle.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>MiniGames Love</title>
+</head>
+
+<body>
+    <div class="frame" id="fam">
+        <button onclick="FirstButton()">Click Me</button>
+    </div>
+
+    <div class="nc1" id="nc1">
+        <h1 class="nctxl">Game One</h1>
+        <h1 id="time" class="time">00:00</h1>
+        <img src="Asset/Img/speaker.png" onclick="MutedMusic()" id="speaker" class="speaker">
+
+
+        <div class="gamebg">
+            <div class="player" id="player"></div>
+            <div class="exit" id="exit"></div>
+            <div class="fakeExit" id="fakeExit"></div>
+            <div class="fakeExit" id="fakeExit1"></div>
+            <div class="fakeExit" id="fakeExit2"></div>
+        </div>
+
+        <div class="mobilecontrol">
+            <div class="mobileframe">
+                <button class="W" onclick="MovementSystem(0, -1)">W</button>
+                <button class="S" onclick="MovementSystem(0, 1)">S</button>
+                <button class="A" onclick="MovementSystem(-1, 0)">A</button>
+                <button class="D" onclick="MovementSystem(1, 0)">D</button>
+            </div>
+        </div>
+
+        <div class="maze" id="maze"></div>
+    </div>
+
+    <img src="Asset/Img/ghost.png" class="jumpscare" id="jumpscare" onclick="window.location.href='Index.html';">
+    <img src="Asset/Img/exit.png" class="exiT" id="exiT" onclick="window.location.href='../Last/Index.html';">
+
+    <script src="Javascript/function.js"></script>
+    <script src="Javascript/GameJS.js"></script>
+</body>
+
+</html>

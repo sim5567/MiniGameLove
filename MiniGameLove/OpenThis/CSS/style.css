@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Jersey+10&family=Tiny5&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f4f0;
+}
+
+@keyframes end {
+    50% {
+        transform: translateX(-53rem);
+    }
+
+    100% {
+        transform: translateX(-53rem);
+    }
+}
+
+.nc1 {
+    background-color: #ffc5ff;
+    border-bottom: 5px solid #616a6b;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nc1 .nctxl {
+    color: #616a6b;
+    cursor: default;
+    position: relative;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    animation: end 3s ease-in forwards;
+    animation-delay: 2s;
+}
+
+.nc1 .time {
+    color: #616a6b;
+    position: absolute;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    display: inline-block;
+    right: 2.8%;
+}
+
+.nc1 .speaker {
+    height: 4%;
+    width: 2%;
+    position: absolute;
+    background-color: #616a6b;
+    border-radius: 5px;
+    border: 3px solid #2e2e2e;
+    right: 0.2%;
+}
+
+.nc1 .speaker:hover {
+    cursor: pointer;
+}
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    background-color: #ffc5ff;
+    height: 10%;
+    width: 15%;
+    border-radius: 15px;
+    filter: drop-shadow(0px 1px 8px #a780a7);
+}
+
+.frame button {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 35px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    right: 15%;
+    height: 3rem;
+    width: 13rem;
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+}
+
+.frame button:hover {
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+    color: lightslategray;
+    border: 2px solid lightslategray;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .frame {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        display: block;
+        transform: translate(-50%, -50%);
+        background-color: #ffc5ff;
+        height: 13%;
+        width: 25%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 1px 8px #a780a7);
+    }
+
+
+    .frame button {
+        font-family: "Jersey 10", sans-serif;
+        font-size: 35px;
+        color: black;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 50px;
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        right: 15%;
+        height: 3rem;
+        width: 13rem;
+        transition-timing-function: linear;
+        transition-duration: 0.1s;
+    }
+
+    .frame button:hover {
+        transition-timing-function: linear;
+        transition-duration: 0.1s;
+        color: lightslategray;
+        border: 2px solid lightslategray;
+        cursor: pointer;
+    }
+
+    @keyframes end {
+        50% {
+            transform: translateX(-30rem);
+        }
+    
+        100% {
+            transform: translateX(-30rem);
+        }
+    }
+
+    .nc1 {
+        background-color: #ffc5ff;
+        border-bottom: 5px solid #616a6b;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nc1 .nctxl {
+        color: #616a6b;
+        cursor: default;
+        position: relative;
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        text-align: center;
+        display: inline-block;
+        animation: end 3s ease-in forwards;
+        animation-delay: 2s;
+    }
+
+    .nc1 .time {
+        color: #616a6b;
+        position: absolute;
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        display: inline-block;
+        right: 4.5%;
+    }
+    
+    .nc1 .speaker {
+        height: 4%;
+        width: 2.8%;
+        position: absolute;
+        background-color: #616a6b;
+        border-radius: 5px;
+        border: 3px solid #2e2e2e;
+        right: 0.8%;
+    }
+    
+}

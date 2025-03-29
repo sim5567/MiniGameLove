@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f4f0;
+}
+
+.q1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    background-color: #ffc5ff;
+    height: 10%;
+    width: 15%;
+    border-radius: 15px;
+    filter: drop-shadow(0px 1px 8px #a780a7);
+}
+
+.q1 h2 {
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.endbtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    background-color: #ffc5ff;
+    height: 10%;
+    width: 15%;
+    border-radius: 15px;
+    filter: drop-shadow(0px 1px 8px #a780a7); 
+}
+
+.endbtn button {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 35px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    right: 15%;
+    height: 3rem;
+    width: 13rem;
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+}
+
+.endbtn button:hover {
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+    color: lightslategray;
+    border: 2px solid lightslategray;
+    cursor: pointer;
+}
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    background-color: #ffc5ff;
+    height: 10%;
+    width: 15%;
+    border-radius: 15px;
+    filter: drop-shadow(0px 1px 8px #a780a7);
+}
+
+.frame button {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 35px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    right: 15%;
+    height: 3rem;
+    width: 13rem;
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+}
+
+.frame button:hover {
+    transition-timing-function: linear;
+    transition-duration: 0.1s;
+    color: lightslategray;
+    border: 2px solid lightslategray;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .frame {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        display: block;
+        transform: translate(-50%, -50%);
+        background-color: #ffc5ff;
+        height: 13%;
+        width: 25%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 1px 8px #a780a7);
+    }
+
+    .frame button {
+        font-family: "Jersey 10", sans-serif;
+        font-size: 35px;
+        color: black;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 50px;
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        right: 15%;
+        height: 3rem;
+        width: 13rem;
+        transition-timing-function: linear;
+        transition-duration: 0.1s;
+    }
+
+    .frame button:hover {
+        transition-timing-function: linear;
+        transition-duration: 0.1s;
+        color: lightslategray;
+        border: 2px solid lightslategray;
+        cursor: pointer;
+    }
+
+    .q1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        display: none;
+        transform: translate(-50%, -50%);
+        background-color: #ffc5ff;
+        height: 13%;
+        width: 25%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 1px 8px #a780a7);
+    }
+    
+    .q1 h2 {
+        font-family: "Mitr", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        font-style: normal;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .endbtn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        display: none;
+        transform: translate(-50%, -50%);
+        background-color: #ffc5ff;
+        height: 13%;
+        width: 25%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 1px 8px #a780a7); 
+    }
+
+    .endbtn button {
+        font-family: "Jersey 10", sans-serif;
+        font-size: 35px;
+        color: black;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 50px;
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        right: 15%;
+        height: 3rem;
+        width: 13rem;
+        transition-timing-function: linear;
+        transition-duration: 0.1s;
+    }
+    
+    .endbtn button:hover {
+        transition-timing-function: linear;
+        transition-duration: 0.1s;
+        color: lightslategray;
+        border: 2px solid lightslategray;
+        cursor: pointer;
+    }
+}
